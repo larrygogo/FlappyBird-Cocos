@@ -18,8 +18,6 @@ export class PlayerController extends Component {
 
 
     start() {
-        this.position = this.node.getPosition();
-        this.playerAnimation.play('fly');
     }
 
     update(deltaTime: number) {
